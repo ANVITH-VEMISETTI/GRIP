@@ -4,8 +4,8 @@ This repository Consists of all the task subitted for the Internship task in GRI
 
 # steps to run project
 Clone the repository.\
-Now install Xampp if not already present.
-open xampp control pannel and start Appache and Mysql servers
-Open PHPMyAdmin and import the sql file after creating a database.
-Place all the project files in htdocs folder of xampp.
-Now goto localhost in browser and the website is now hosted locally.
+Now install Xampp if not already present.\
+open xampp control pannel and start Appache and Mysql servers.\
+Open PHPMyAdmin and import the sql file after creating a database.\
+Place all the project files in htdocs folder of xampp.\
+Now goto localhost in browser and the website is now hosted locally.\
