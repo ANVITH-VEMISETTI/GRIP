@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E:\xampp\htdocs\GRIP\css\home.css">
+    <title>createuser</title>
+    <style>
+        header {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(134, 204, 134);
+        }
+
+        h1 {
+            color: purple;
+            text-align: center;
+        }
+
+        h2 {
+            display: inline;
+            position: absolute;
+            top: 0;
+            right: 20px;
+        }
+
+        h2 a {
+            color: rgb(238, 71, 71);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h2 a:hover {
+            background-color: grey;
+            font-weight: bold;
+            color: black;
+        }
+
+        div img {
+            height: 320px;
+            width: 450px;
+            position: relative;
+            left: 33%;
+        }
+
+        nav {
+            color: rgb(238, 71, 71);
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-decoration-color: rgb(238, 71, 71);
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: rgb(238, 71, 71);
+            font-weight: bolder;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: grey;
+            font-weight: bold;
+            color: black;
+
+        }
+
+        #d1 {
+            background-color: rgb(194, 194, 194);
+            height: 100%;
+            width: 90%;
+            align-items: center;
+            padding: 80px;
+        }
+
+        #d2 h1 {
+            font-size: 40px;
+            padding-bottom: 40px;
+            margin: auto;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        input {
+            text-align: center;
+            border: whitesmoke;
+            margin: auto;
+            padding: 8px;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        #d2 {
+            margin: auto;
+            background-color: rgb(230, 224, 224, 0.4);
+            background-blend-mode: screen;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            height: auto;
+            width: 500px;
+            border-radius: 10px;
+        }
+
+        input[type=submit] {
+            background-color: #777;
+            border: 1px solid #777;
+            color: whitesmoke;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 21px;
+            width: 80%;
+            padding: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgb(54, 53, 53);
+        }
+
+        input[type=reset] {
+            background-color: #777;
+            border: 1px solid #777;
+            color: whitesmoke;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 21px;
+            width: 80%;
+            padding: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        input[type=reset]:hover {
+            background-color: rgb(54, 53, 53);
+        }
+
+        :-ms-input-placeholder{
+            text-align: center;
+            font-family: 'Calibri';
+            font-weight: 100;
+        }
+
+        footer {
+            background-color: rgb(194, 194, 194);
+            align-items: center;
+            text-align: center;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul id="menu">
+            <li class="ui-state-disabled"><a href="index.html">Home</a></li>
+            <li class="ui-state-disabled"><a href="users.php">Display Users</a></li>
+            <li class="ui-state-disabled"><a href="selectuser.php">Search user</a></li>
+            <li class="ui-state-disabled"><a href="transfer.php">Transfer Money</a></li>
+            <li class="ui-state-disabled"><a href="transaction_history.php">Transaction History</a></li>
+        </ul>
+        <h2><a href="index.html">USER BANK</a></h2>
+    </nav>
+    <div id="d1">
+
+        <div id="d2">
+            <h1>ENTER USER DETAILS</h1>
+            <form action="createuser.php" method="post" autocomplete="off">
+                <label for="name">Name : </label>
+                <input type="text" id="name" name="name" placeholder="ENTER NAME" required><br>
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email" placeholder="ENTER MAILID" required><br>
+                <label for="balance">Balance : </label>
+                <input type="number" id="balance" name="balance" placeholder="ENTER BALANCE" min="1" required><br>
+                <input type="submit" name="submit" id="submit" value="CREATE"><input type="reset" name="reset" id="reset" value="RESET">
+            </form>
+        </div>
+        <footer>
+            <p>Copyright 2022. Made by <b>Vemisetti.Anvith</b><sup>&copy;</sup><br>
+                &nbsp;Vemisetti Anvith foundations
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
