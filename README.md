@@ -8,4 +8,4 @@ Now install Xampp if not already present.\
 open xampp control pannel and start Appache and Mysql servers.\
 Open PHPMyAdmin and import the sql file after creating a database.\
 Place all the project files in htdocs folder of xampp.\
-Now goto localhost in browser and the website is now hosted locally.\
+Now goto localhost in browser and the website is now hosted locally.
