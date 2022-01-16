@@ -3,7 +3,7 @@
 This repository Consists of all the task subitted for the Internship task in GRIP(Graduation Rotational Internship Program)
 
 # steps to run project
-Clone the repository.
+Clone the repository./n
 Now install Xampp if not already present.
 open xampp control pannel and start Appache and Mysql servers
 Open PHPMyAdmin and import the sql file after creating a database.
