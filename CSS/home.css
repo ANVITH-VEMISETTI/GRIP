@@ -1,0 +1,58 @@
+header{
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
+h1{
+    color : purple;
+    text-align: center;
+}
+img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav
+{
+    background-color: skyblue;
+    color: blueviolet;
+}
+nav ul
+{
+    list-style-type: none;
+    background-color: skyblue;
+    text-decoration-color: blueviolet;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: grey;
+    font-weight: bold;
+}
+li ul{
+    display: none;
+    position: absolute;
+}
+li:hover ul
+{
+    display: block;
+}
+li ul li{
+    clear: both;
+}
